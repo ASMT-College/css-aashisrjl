@@ -2,3 +2,64 @@
     margin: 0;
     padding: 0;
 }
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.logo{
+    margin-left: 10rem;
+    justify-items: center;
+}
+.list ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    margin-right: 10rem;
+
+}
+.list ul li{
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+
